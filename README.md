@@ -3,7 +3,7 @@ zsh alias for making life easier
 
 
 
-alias rustc="~/.cargo/bin/rustc"
+```alias rustc="~/.cargo/bin/rustc"
 alias gl="git log --oneline --decorate --graph"
 alias amend="git commit --amend"
 alias pulldev="git checkout develop && git pull && git checkout -"
@@ -23,3 +23,4 @@ alias idk="printf \"¯\_(ツ)_/¯\" | pbcopy && echo \"¯\_(ツ)_/¯ copied to c
 alias contribs="git shortlog -sn"
 alias gh="git reflog"
 alias composer="php ~/.composer/composer.phar"
+```
